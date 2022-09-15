@@ -1,0 +1,28 @@
+.Board-wrapper {
+    background: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 60vh;
+    position: relative;
+    
+}
+
+.Divider {
+    background-image: url("../../images/pattern-divider-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 1em 10em;
+    margin: 1.5em 0em;
+
+}
+
+@media only screen and (max-width: 640px){
+    .Board-wrapper {
+        margin: 2vh;
+    }
+    .Divider {
+        background-image: url("../../images/pattern-divider-mobile.svg");
+    }
+}

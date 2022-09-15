@@ -1,0 +1,21 @@
+
+.Advice-id {
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 0.7em;
+    margin:1em;
+    padding:1em;
+    
+}
+
+.Advice {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    padding:0em 1em;
+
+}
+
+.Loading {
+    display: none;
+}
